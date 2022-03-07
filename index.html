@@ -12,7 +12,7 @@
     <header>
         <h1>CodeClan News</h1>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li>
                     <a href="/">Home</a>
                 </li>
@@ -30,10 +30,10 @@
             <section>
                 <h2>Login</h2>
                 <form>
-                    <label>Email:</label>
-                    <input>
-                    <label>Password:</label>
-                    <input>
+                    <label>Email:</label> <br>
+                    <input><br>
+                    <label>Password:</label><br>
+                    <input><br>
                     <button type="button">Submit</button>
                 </form>
                 <h2>Categories</h2>
@@ -52,11 +52,11 @@
                     </li>
                 </ul>
             </section>
-            <section>
+            <section class="article-preview">
                 <h2>Latest</h2>
                 <h3>Breaking News</h3>
-                    <div>
-                        <img>
+                    <div class="card">
+                        <img src="placeholder.jpeg" alt="placeholder image">
                         <h4>Story Headline 1</h4>
                         <article>
                             <p>
@@ -64,8 +64,8 @@
                             </p>
                         </article>
                     </div>
-                    <div>
-                        <img>
+                    <div class="card">
+                        <img src="placeholder.jpeg" alt="placeholder image">
                         <h4>Story Headline 2</h4>
                         <article>
                             <p>
@@ -73,8 +73,8 @@
                             </p>
                         </article>
                     </div>
-                    <div>
-                        <img>
+                    <div class="card">
+                        <img src="placeholder.jpeg" alt="placeholder image">
                         <h4>Story Headline 3</h4>
                         <article>
                             <p>
@@ -97,21 +97,24 @@
         </article>
         <section>
             <h2>Comments</h2>
-            <textarea>
+            <textarea cols="100" rows="10" name="Comments" placeholder="Leave us a comment!">
             </textarea>
             <button type="button">Submit</button>
+            <hr>
             <div>
-                <img>
+                <img class="user" src="user.jpeg" alt="user placeholder image">
                 <h3>Username</h3>
                 <p>Viverra vitae congue eu consequat</p>
             </div>
+            <hr>
             <div>
-                <img>
+                <img class="user" src="user.jpeg" alt="user placeholder image">
                 <h3>Username 2</h3>
                 <p>Viverra vitae congue eu consequat</p>
             </div>
+            <hr>
             <div>
-                <img>
+                <img class="user"src="user.jpeg" alt="user placeholder image">
                 <h3>Username 3</h3>
                 <p>Viverra vitae congue eu consequat</p>
             </div>
